@@ -1,4 +1,3 @@
-![Image Alt](image_url)
 Home SOC Lab: Security Onion + Metasploitable2 on Proxmox
 Overview
 I'm a cybersecurity student at FIU, still figuring out which specialization I want to go deep on, and this project was my excuse to get hands-on with a real detection stack instead of just reading about one. I built a home Security Operations Center lab on a Dell PowerEdge R410 running Proxmox VE, with a Security Onion sensor watching traffic and a deliberately vulnerable target machine to generate stuff for it to catch.
@@ -33,4 +32,3 @@ Add an Active Directory VM as a second target
 Explore more attack types and compare detection coverage across them
 What's Next
 The next session is going to focus on adding an Active Directory VM as a second target and testing detection coverage against a wider variety of attack types, not just recon scans.
-
