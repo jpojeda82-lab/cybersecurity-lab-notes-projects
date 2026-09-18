@@ -8,7 +8,7 @@ To reinforce cybersecurity fundamentals through practical labs and hands-on infr
 
 ## Projects
 
-- [Home SOC Lab](./home-soc-lab.md) — Building a Security Onion sensor and Metasploitable2 target on Proxmox, including three real bugs diagnosed and fixed (memory pressure, misconfigured capture interface, traffic mirroring) to get end-to-end detection working.
+- Home SOC Lab — Built a Security Onion sensor and a vulnerable Metasploitable2 target on my Proxmox server, then spent most of the time chasing down why nothing was working: a disk controller mismatch that kept the target from booting, Zeek crashing from not enough RAM, and the sensor listening on the wrong network interface. Fixed all three and confirmed it worked end to end by running Nmap scans and watching Security Onion catch 27 real alerts.
 
 *(More projects will be added here as they're completed — each gets its own linked file.)*
 
