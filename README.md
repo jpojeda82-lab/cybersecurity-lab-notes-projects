@@ -9,6 +9,7 @@ To reinforce cybersecurity fundamentals through practical labs and hands-on infr
 ## Projects
 
 - [Home SOC Lab](https://github.com/jpojeda82-lab/cybersecurity-lab-notes-projects/blob/main/home-soc-lab_2.md) I set up a Security Onion sensor and a vulnerable Metasploitable2 target on my Proxmox server. I spent most of my time working out what was going wrong. The issues were a disk controller error, Zeek crashing due to low RAM, and the sensor not being on the correct interface. The system worked perfectly at the end and I had 27 real alerts. (More projects will go here when finished. Each has their own file that can be clicked on.)
+- - [Vulnerability Assessment: Metasploitable2](https://github.com/jpojeda82-lab/cybersecurity-lab-notes-projects/blob/main/vuln-assessment.md) — Ran an unauthenticated Nessus scan against a Metasploitable2 target, identifying two unauthenticated root-access backdoors, a known-exploited Apache Tomcat CVE, and several other critical misconfigurations, then documented and prioritized remediation steps for each.
 
 ## HTB Lab Notes
 
