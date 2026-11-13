@@ -8,8 +8,7 @@ To reinforce cybersecurity fundamentals through practical labs and hands-on infr
 
 ## Projects
 
-- [Home SOC Lab](https://github.com/jpojeda82-lab/cybersecurity-lab-notes-projects/blob/main/home-soc-lab_2.md) — Built a Security Onion sensor and a vulnerable Metasploitable2 target on my Proxmox server, then spent most of the time chasing down why nothing was working: a disk controller mismatch, Zeek crashing from not enough RAM, and the sensor listening on the wrong interface. Confirmed it worked end to end with Nmap scans and 27 real alerts caught.
-*(More projects will be added here as they're completed — each gets its own linked file.)*
+- [Home SOC Lab](https://github.com/jpojeda82-lab/cybersecurity-lab-notes-projects/blob/main/home-soc-lab_2.md) I set up a Security Onion sensor and a vulnerable Metasploitable2 target on my Proxmox server. I spent most of my time working out what was going wrong. The issues were a disk controller error, Zeek crashing due to low RAM, and the sensor not being on the correct interface. The system worked perfectly at the end and I had 27 real alerts. (More projects will go here when finished. Each has their own file that can be clicked on.)
 
 ## HTB Lab Notes
 
